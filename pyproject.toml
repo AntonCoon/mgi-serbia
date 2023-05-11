@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mgi-serbia-stereo-clustering"
+version = "0.1.0"
+description = ""
+authors = ["AntonCoon <eliseevantoncoon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mgi_serbia_stereo_clustering"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+seaborn = "^0.12.2"
+scipy = "^1.10.1"
+torch = "^2.0.0"
+sklearn = "^0.0.post4"
+scikit-learn = "^1.2.2"
+umap-learn = "^0.5.3"
+networkx = "^3.1"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
