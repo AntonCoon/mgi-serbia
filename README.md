@@ -17,6 +17,6 @@ Then following results might be reproduced
 - Gene expression graph based approach in `probability_weighted_graph_clusterization.ipynb`
 
 ## Contact  
-In case of any questions about the project contact my via email
+In case of any questions about the project contact me via email
 [eliseevantoncoon@gmail.com](eliseevantoncoon@gmail.com)
 
